@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF3E0"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_marginTop="10dp"
+       android:layout_height="wrap_content"
+       android:text="abcdef"
+       android:fontFamily="monospace"
+       android:padding="5dp"
+       android:textStyle="bold"
+       android:textColor="#FF1744"
+       android:textSize="30dp"
+       android:id="@+id/txtques"
+       android:layout_gravity="center"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="#B71C1C"/>
+
+    <TextView
+        android:id="@+id/op1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#6A1B9A"
+        android:onClick="onClickans1"
+        android:text="cdc"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/op2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textColor="#6A1B9A"
+        android:onClick="onClickans2"
+        android:text="ewwfe"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/op3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textColor="#6A1B9A"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:onClick="onClickans3"
+        android:text="cs"
+        android:textSize="20dp" />
+
+
+
+</LinearLayout>
